@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content= perguntas biblicas">
+    <meta name="author" content="stefani">
+    <title>perguntas biblicas</title>
+
+</head>
+<body>
+<header>
+    <div class="container_haeader"></div>
+    <h1>quiz escola biblica</h1>
+    <h2>pontos:<span id="pontos">>0</span></h2>
+    </header>
+    <div>
+    </div>
+</header>
+    <main>
+        <div class="conteiner_quiz">
+            <audio id="aplauso" src="audio/aplausos"></audio>
+            <audio id ="errou" src="audio/negative.mp3"></audio>"
+            <audio id="acertou"src="audio/positive.mp3"></audio>
+            <div id="quiz"class="card_quiz">
+                <div class="card_perguntas">
+                    <h2><span id="nquestao">0</span></h2>
+                    </div>
+            <div class="card-resposta">
+                <div id="A" onclick="validar('A', this)">A</div>
+                    <div id="B" onclick="validar('B', this)">B</div>
+                    <div id="C" onclick="validar('C', this)">C</div>
+                    <div id="D" onclick="validar('D', this)">D</div>
+                </div>
+            </div>
+    </main>
+
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
