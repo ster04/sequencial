@@ -1,0 +1,27 @@
+tipos de dados em js
+
+number -representa numeros intriros
+
+exemplos -letidade =25; //variáveis 
+
+string->representa sequencia de caracteres
+exemplo ->let nome ="Marcia";
+         let saudação="olá mundo";
+   boolean ->representa um valor verdadeiros ou falso
+exemplo->letvalor =true;
+    letinteiro=false;
+
+null->representa um valor nulo
+
+exemplo->let valorNulo=null;
+
+Undefine->representa uma variável  que foi declarada ,mas não iniciada.
+
+symbol->representa  um valor único e imutável  
+exemplo ->letSimbolo=symbol("simbolo");
+
+
+
+
+
+
