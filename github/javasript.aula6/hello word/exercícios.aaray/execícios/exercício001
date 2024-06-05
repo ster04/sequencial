@@ -1,0 +1,63 @@
+let idade:17; //exercício 1
+
+let altura:1,55;//exercício 2
+
+let soma:17+1,55=//exercício3
+
+let nome:"stefani Domingues Gomes";//execício4
+
+let adulto:valor true<18 > maior que  18;//exercício5
+if{
+let idade="se a idade for maior que 18console.log";
+}
+else{
+    se for menor que 18 console.log
+}
+else if{
+caso contrario false.console.log
+}
+
+let estudante:200;//exercício006
+if{
+    " se for estudante.console.log";
+}
+else{
+    "se não for estudante .console.log"
+}
+else if{
+    falso caso contrario.console.log;
+}
+
+  fuction soma(square(5));//exercício 007
+var square = function (n) {
+  return n * n;
+};
+
+fuction carrro(objetivo)
+arro branco, (civic),honda, 1997 { //exercício008
+return objetivos;
+};
+
+function adicionar(array) //exercício009
+var promessa = {
+  var: "texto",
+  array: [1, 2, 3, 4],
+  return(array)
+};
+
+function soma:nclude <stdio.h> 
+
+void somaArray(int num[10]){
+    int resultado = 0;
+    for(int i = 0; i < num[i]; i++){
+        resultado += num[i];
+    }
+    printf("Resultado = %d\n", resultado);
+}
+
+int main(){
+    int numeros[10] = {30, 40, 50, 60, 70, 80, 90, 100, 200, 300};
+
+    somaArray(numeros);
+    return(function)
+}

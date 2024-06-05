@@ -1,0 +1,11 @@
+exercícios
+
+1-Crie uma variavel chamada idade e atribua a ela o valor da sua idade.
+2-Crie uma variavel chamada alturea e atribua a ela sua altura em metros
+3-Crie uma  variavel chamada soma e atribua a ela o valor da soma das variaveis idade e altura.
+4-Crie variavel chamada nome e atribua seu nomecompleto
+5-Crie uma variavel chamda adulto e atribua a ela o valor true se sua idade for maior ou igual a 18 caso contrário false
+6-Crie uma variavel Estudante e atribua o valor true se você  for Estudante ,ou falso caso  contrário7-Crie uma Função  chama da soma que  recebe Dois argumentos e retorne a soma dos dois
+8-Crie uma chamada carro que aceite argumentos,marca,modelo e ano e retorne um objeto com essas propriedades.
+9-Crie uma função chamada adicionar que aceite um array e um elemento ao final do array.
+10-Crie uma função chamada soma que aceite um array de números e retorne soma de todos os elementos.
