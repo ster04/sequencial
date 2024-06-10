@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header, footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-form {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .login-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vind(a) ao site</h1>
+    </header>
+    <main>
+        <div class="login-form">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="text" placeholder="Usuário" id="username" required>
+                <input type="password" placeholder="Senha" id="password" required>
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Sua Empresa</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
